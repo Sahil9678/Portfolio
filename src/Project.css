@@ -1,0 +1,19 @@
+.card_img{
+    padding: 1vw;
+    float: left;
+    width: 100%;
+    height: 50%;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+
+.card_project_name{
+    font-size: 1.6em;
+    color: rgba(129, 255, 255, 0.698);
+    text-align: center;
+    margin: 0;
+}
+
+.card_project_type{
+    text-align: center;
+}
