@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <div className='header-bg'>
-        <h2 title='Sahil Godwal'>Sahil Godwal</h2>
+        <h2 title='Sahil Godwal' aria-hidden='true'>Sahil Godwal</h2>
         <h3>Learn more about what I do</h3>
         <br />
         <span>&#x2304;</span>
