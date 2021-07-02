@@ -60,6 +60,7 @@ body {
 @media screen and (max-width: 450px) {
   .header-bg h2 {
     font-size: 4em;
+    padding: 0;
   }
 }
 
@@ -69,6 +70,7 @@ body {
   color: rgb(255, 255, 255);
   text-shadow: 5px 5px 5px black;
 }
+
 
 .header-bg span {
   position: sticky;
@@ -137,6 +139,13 @@ h1 .blast:hover {
 
 .contact-container {
   position: relative;
+  transition: all 1s ease-out;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-container {
+    padding: 50px;
+  }
 }
 
 .contact {
@@ -179,6 +188,24 @@ h1 .blast:hover {
   transform: translateY(3px);
 }
 
+@media screen and (max-width:700px) {
+  .contact {
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .contact {
+    position: absolute;
+    flex-direction: column;
+    top: 30%;
+    left: 70%;
+  }
+}
+
 @media screen and (max-width:900px) {
   .contact a {
     position: absolute;
@@ -188,12 +215,12 @@ h1 .blast:hover {
   }
 }
 
-@media screen and (max-width:700px) {
-  .contact {
+@media screen and (max-width:430px) {
+  .contact a {
     position: absolute;
-    flex-direction: column;
-    top: 85%;
-    left: 30%;
+    flex-direction: row;
+    top: 200%;
+    left: -20%;
   }
 }
 
